@@ -25,6 +25,7 @@
 <li>Selecting from multiple choice options</li>
 <li>Score keeper that lets you know your progess</li>
 <li>Fun graphics in accordance to your scoring!</li>
+</ul>
 
 <h2>TECHNOLOGY</h2>
 <h3>Front End</h3>
