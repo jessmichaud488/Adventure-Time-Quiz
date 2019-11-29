@@ -398,6 +398,24 @@ label {
 label {
     margin-bottom: 24px;
 }
+
+#footer-icons {
+    margin-top: 100px;
+    margin-left: 725px;
+    display: inline-block;
+  }
+  
+.icon {
+    height: 35px;
+    width: 35px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+    font-weight: bold;
+  }
 }
 
 @media only screen and (min-width: 360px) {
@@ -434,5 +452,5 @@ label {
 	#score-count {
 		padding-right: 96px;
 		padding-bottom: 30px;
-	}
+    }
 }
