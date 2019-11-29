@@ -1,0 +1,438 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: rgba (255, 255, 255, .6);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+html, body {
+	height: 100%;
+}
+
+html {
+  background: url("https://i.imgur.com/MRL1AH0.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.quiz-box {
+  background-color: rgba(255, 255, 255, .6);
+  margin-top: 100px;
+}
+
+h1 {
+  color: black;
+	font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+	font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#start-page {
+	height: 200%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 10px 18px #888888;
+    text-shadow: 2px 2px 8px #888888;
+}
+
+#start-button {
+    min-height: 80px;
+	min-width: 80px;
+	font-size: 24px;
+    border: none;
+    outline: none;
+    color: white;
+    background: rgba(235,0,187);
+    cursor: pointer;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    z-index: 0;
+    border-radius: 5px;
+    padding: 6px 12px;
+	width: 60%;
+    max-width: 200px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#start-button:before {
+    content: '';
+    background: linear-gradient(45deg, white, #00ffd5, #002bff, #7a00ff, #ff00c8, white);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+#start-button:active {
+    color: white;
+}
+
+#start-button:active:after {
+    background: transparent;
+}
+
+#start-button:hover:before {
+    opacity: 1;
+}
+
+#start-button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(235,0,187);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+#submit-button {
+    min-height: 80px;
+	min-width: 80px;
+	font-size: 24px;
+    border: none;
+    outline: none;
+    color: white;
+    background: rgba(235,0,187);
+    cursor: pointer;
+    position: relative;
+    margin-left: 700px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    z-index: 0;
+    border-radius: 5px;
+    padding: 6px 12px;
+	width: 60%;
+    max-width: 200px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#submit-button:before {
+    content: '';
+    background: linear-gradient(45deg, white, #00ffd5, #002bff, #7a00ff, #ff00c8, white);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+#submit-button:active {
+    color: white;
+}
+
+#submit-button:active:after {
+    background: transparent;
+}
+
+#submit-button:hover:before {
+    opacity: 1;
+}
+
+#submit-button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(235,0,187);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+#next-button {
+    min-height: 80px;
+	min-width: 80px;
+	font-size: 24px;
+    border: none;
+    outline: none;
+    color: white;
+    background: rgba(235,0,187);
+    cursor: pointer;
+    position: relative;
+    margin-left: 700px;
+    margin-top: 65px;
+    margin-bottom: 80px;
+    z-index: 0;
+    border-radius: 5px;
+    padding: 6px 12px;
+	width: 60%;
+    max-width: 200px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#next-button:before {
+    content: '';
+    background: linear-gradient(45deg, white, #00ffd5, #002bff, #7a00ff, #ff00c8, white);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+#next-button:active {
+    color: white;
+}
+
+#next-button:active:after {
+    background: transparent;
+}
+
+#next-button:hover:before {
+    opacity: 1;
+}
+
+#next-button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(235,0,187);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+#start-over-button {
+    min-height: 80px;
+	min-width: 80px;
+	font-size: 24px;
+    border: none;
+    outline: none;
+    color: white;
+    background: rgba(235,0,187);
+    cursor: pointer;
+    position: relative;
+    margin-left: 700px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    z-index: 0;
+    border-radius: 5px;
+    padding: 6px 12px;
+	width: 60%;
+    max-width: 200px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#start-over-button:before {
+    content: '';
+    background: linear-gradient(45deg, white, #00ffd5, #002bff, #7a00ff, #ff00c8, white);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+#start-over-button:active {
+    color: white;
+}
+
+#start-over-button:active:after {
+    background: transparent;
+}
+
+#start-over-button:hover:before {
+    opacity: 1;
+}
+
+#start-over-button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(235,0,187);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+#question-page {
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+    box-shadow: 5px 10px 18px #888888;
+    text-shadow: 2px 2px 8px #888888;
+}
+
+#question {
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, .6);
+}
+
+fieldset {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 10%;
+	min-height: 250px;
+	border: none;
+}
+
+fieldset span {
+    font-size: 34px;
+}
+
+label {
+	margin-bottom: 12px;
+	font-size: 18px;
+}
+
+.answer {
+  font-size: 48px;
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+}
+
+#status-bar {
+  background-color: rgba(255, 255, 255, .6);
+  box-shadow: 5px 10px 18px #888888;
+}
+
+#question-count, #score-count {
+	display: inline-block;
+    font-size: 18px;
+    text-shadow: 2px 2px 8px #888888;
+}
+
+.feedback-page {
+    height: 50%;
+	display: flex;
+	flex-direction: column;
+    box-shadow: 5px 10px 18px #888888;
+    text-shadow: 2px 2px 8px #888888;
+}
+
+.feedback-page h2 {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+#feedback-img {
+  display: inline-block;
+  margin-left: 500px;
+  height: 300px;
+  width: 600px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+#final-page{
+    height: 50%;
+	display: flex;
+	flex-direction: column;
+    box-shadow: 5px 10px 18px #888888;
+    text-shadow: 2px 2px 8px #888888;
+}
+
+#final-page h2 {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+#final-img {
+    display: inline-block;
+    margin-left: 500px;
+    height: 300px;
+    width: 600px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#score-count {
+	float: right;
+}
+
+label {
+    margin-bottom: 24px;
+}
+}
+
+@media only screen and (min-width: 360px) {
+	#question-count, #score-count {
+		display: inline-block;
+		font-size: 36px;
+		margin: 0 6px 6px;
+	}
+
+
+@media only screen and (min-width: 600px) {
+	.feedback-page img {
+		display: block;
+		width: 600px;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.feedback-page h2 {
+		width: 650px;
+		margin: auto;
+	}
+
+	form {
+		padding: 48px 56px 0;
+	}
+
+	#question-count {
+		padding-left: 96px;
+		padding-bottom: 30px;
+	}
+
+	#score-count {
+		padding-right: 96px;
+		padding-bottom: 30px;
+	}
+}
