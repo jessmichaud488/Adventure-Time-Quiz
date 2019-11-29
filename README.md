@@ -1,13 +1,37 @@
-Thinkful (https://thinkful.com/) first project - A playful quiz app centered around Cartoon Network's Adventure Time.
+<h1>ADVENTURE  TIME  QUIZ</h1>
+![Home Page](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/HomePage.png)
 
-INTRODUCTION
+![Question Page](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/LogIn.png)
 
-A fun quiz app that brings to life the whimsical aesthetic of the main setting of the show, The Land of Ooo.
+![Positive Feedback Page ](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/NewEntry.png)
 
-USE CASE
+![Negative Feedback Page ](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/NewEntry.png)
 
-To test the trivia knowledge of anything to do with Adventure Time!
+![Results Page](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/EditEntry.png)
 
-TECHNICAL
+<h2>APPLICATION WEBSITE</h2>
+<p>A working prototype of this app can be viewed at <a href="https://jessmichaud488.github.io/Adventure-Time-Quiz/">https://jessmichaud488.github.io/Adventure-Time-Quiz/</a></p>
 
-This app was built using HTML5, CSS, and Javascript.
+<h2>USE CASE</h2>
+<p>Adventure Time was a Cartoon Network cartoon set in the post-apololyptic Land of Ooo where people made of candy, vampires, and magic(or SCIENCE!) live. In the midst of the whimsy lives Finn and Jake, possibly the last remaining human and a magical stretchy dog who are adoptive brothers and hero partners who fight the evil and chaos that roams the land. Did I mention they live in a pretty sweet treehouse?</p>
+
+<h2>HOW IT WORKS</h2>
+<p>Choose from multiple radio options and tally your points to reveal how well you really know the Land of Ooo!</p>
+
+<h2>FUNCTIONALITY</h2>
+<p>This app's functionality includes:</p>
+<ul>
+<li>Selecting from multiple choice options</li>
+<li>Score keeper that lets you know your progess</li>
+<li>Fun graphics in accordance to your scoring!</li>
+
+<h2>TECHNOLOGY</h2>
+<h3>Front End</h3>
+<ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>JavaScript</li>
+</ul>
+
+
+
