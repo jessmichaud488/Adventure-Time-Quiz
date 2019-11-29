@@ -1,13 +1,13 @@
 <h1>ADVENTURE  TIME  QUIZ</h1>
-![Home Page](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/HomePage.png)
+![Home Page](https://github.com/jessmichaud488/Adventure-Time-Quiz/blob/master/images/AdventuretimeQuiz.png)
 
-![Question Page](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/LogIn.png)
+![Question Page](https://github.com/jessmichaud488/Adventure-Time-Quiz/blob/master/images/AdventuretimeQuestion.png)
 
-![Positive Feedback Page ](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/NewEntry.png)
+![Positive Feedback Page](https://github.com/jessmichaud488/Adventure-Time-Quiz/blob/master/images/AdventuretimeJake.png)
 
-![Negative Feedback Page ](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/NewEntry.png)
+![Negative Feedback Page](https://github.com/jessmichaud488/Adventure-Time-Quiz/blob/master/images/AdventuretimeLemongrab.png)
 
-![Results Page](https://github.com/jessmichaud488/React-Capstone/blob/master/src/images/EditEntry.png)
+![Results Page](https://github.com/jessmichaud488/Adventure-Time-Quiz/blob/master/images/AdventuretimeResults.png)
 
 <h2>APPLICATION WEBSITE</h2>
 <p>A working prototype of this app can be viewed at <a href="https://jessmichaud488.github.io/Adventure-Time-Quiz/">https://jessmichaud488.github.io/Adventure-Time-Quiz/</a></p>
